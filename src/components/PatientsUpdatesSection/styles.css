@@ -1,0 +1,10 @@
+.wrapper_PatientsUpdatesSection {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 10px;
+  overflow: hidden;
+}

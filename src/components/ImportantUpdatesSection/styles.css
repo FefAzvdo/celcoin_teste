@@ -1,0 +1,6 @@
+.important_update_card_list_ImportantUpdatesSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}

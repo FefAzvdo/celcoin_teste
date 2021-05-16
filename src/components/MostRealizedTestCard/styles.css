@@ -1,0 +1,53 @@
+.attandance_card_wrapper_MostRealizedTestCard {
+  flex: 1;
+  border: 1px solid #efefef;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.image_icon_wrapper_MostRealizedTestCard {
+  height: 136px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name_style_MostRealizedTestCard {
+  font-weight: bold;
+  font-size: 16px;
+  color: #303b5b;
+  color: red;
+}
+
+.caption_style_MostRealizedTestCard {
+  font-weight: bolder;
+  font-size: 14px;
+  color: rgba(48, 59, 91, 0.3_mostrealizedtestcard);
+}
+
+.info_style_MostRealizedTestCard {
+  font-weight: 600;
+  font-size: 26px;
+  color: #303b5b;
+}
+
+.button_style_MostRealizedTestCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  background: linear-gradient(93.05deg, #00a3ff 0%, #0057ff 100%);
+  border-radius: 20px;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.button_and_info_container_MostRealizedTestCard {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

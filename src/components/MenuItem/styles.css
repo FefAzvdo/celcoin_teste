@@ -1,0 +1,15 @@
+.navigation_menu_options_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.navigation_menu_options_item p {
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #fff;
+}

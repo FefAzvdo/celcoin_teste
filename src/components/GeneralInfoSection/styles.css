@@ -1,0 +1,17 @@
+.main_white_board_general_info {
+  background-color: #eff2f9;
+  padding: 10px;
+}
+
+.main_title_header {
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #303b5b;
+}
+
+.card_list {
+  display: flex;
+}
