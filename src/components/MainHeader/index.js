@@ -45,11 +45,11 @@ const HiddenBox = () => {
   );
 };
 
-const SearchBox = () => {
+export const SearchBox = ({ placeholder }) => {
   return (
     <div className="main_white_board_header_wrapper">
       <span style={{ marginRight: "10px" }}>{icons.searchIcon}</span>
-      <input type="text" placeholder="Busca..." />
+      <input type="text" placeholder={placeholder} />
     </div>
   );
 };
@@ -91,7 +91,7 @@ export default function MainHeader() {
           }}
         >
           <div>
-            <SearchBox />
+            <SearchBox placeholder="Busca..." />
           </div>
           <div>
             <ProfileBox onClickProfileBox={() => setIsVisible(!isVisible)} />

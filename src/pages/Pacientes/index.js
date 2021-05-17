@@ -1,5 +1,7 @@
-import MainHeader from "../../components/MainHeader";
+import MainHeader, { SearchBox } from "../../components/MainHeader";
 import PatientsUpdatesSection from "../../components/PatientsUpdatesSection";
+import * as icons from "../../assets/icons";
+import AllPatientsHeader from "../../components/AllPatientsHeader";
 
 export default function PacientesPage() {
   return (
@@ -8,6 +10,7 @@ export default function PacientesPage() {
         <MainHeader />
         <PatientsUpdatesSection />
       </div>
+      <AllPatientsHeader />
     </div>
   );
 }

@@ -1,0 +1,21 @@
+.header_wrapper_AllPatientsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patientsListTitle_AllPatientsHeader {
+  display: flex;
+  align-items: center;
+  color: rgba(86, 84, 104, 0.6);
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.elipsis_box_AllPatientsHeader {
+  display: flex;
+  justify-content: space-around;
+  width: 30px;
+}

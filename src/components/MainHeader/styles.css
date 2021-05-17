@@ -22,17 +22,6 @@
   align-items: center;
 }
 
-.main_white_board_header input {
-  border: 0;
-  outline: 0;
-  background-color: transparent;
-
-  font-size: 14px;
-  line-height: 19px;
-
-  color: rgba(44, 46, 61, 0.3);
-}
-
 .left_side_header_content {
   display: flex;
   flex-direction: row;
