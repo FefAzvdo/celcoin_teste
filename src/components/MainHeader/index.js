@@ -90,7 +90,13 @@ export default function MainHeader() {
             justifyContent: "space-between",
           }}
         >
-          <div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <SearchBox placeholder="Busca..." />
           </div>
           <div>

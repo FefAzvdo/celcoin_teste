@@ -6,7 +6,7 @@ import * as mocks from "../../assets/mock";
 
 export default function PatientsUpdatesSection() {
   return (
-    <div className="main_white_board_general_info">
+    <div className="main_white_board_general_info" style={{ padding: 0 }}>
       <strong className="main_title_header">Atualizações de pacientes</strong>
       <div className="card_list">
         <div style={{ display: "flex" }}>

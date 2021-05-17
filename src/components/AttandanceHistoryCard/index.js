@@ -2,7 +2,7 @@ import "./styles.css";
 
 export default function AttandanceHistoryCard({ icon, name, tests, date }) {
   return (
-    <div className="attandance_card_wrapper">
+    <div className="attandance_card_wrapper" style={{ padding: "10px" }}>
       <div>
         <div className="image_icon_wrapper">
           <span>{icon}</span>

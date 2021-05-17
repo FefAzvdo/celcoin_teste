@@ -2,6 +2,8 @@ import * as icons from "../icons";
 import fotoRenata from "../images/renata_perfil.jpg";
 import fotoCarlos from "../images/carlos_perfil.jpg";
 import fotoSuelton from "../images/suelton_perfil.jpg";
+import fotoLeandro from "../images/leandro_perfil.jpg";
+import fotoKuromi from "../images/kuromi_perfil.jpg";
 
 export const generalInfoMock = [
   {
@@ -122,5 +124,32 @@ export const patientsUpdatesMock = [
     name: "Renata Augusto Ferreira",
     tests: "Autismo",
     date: "20/09/2023",
+  },
+];
+
+export const allPatientsMock = [
+  {
+    profileImage: fotoRenata,
+    name: "Renata Augusto Ferreira",
+    tests: "TDAH CAB ADHD, Autismo",
+    realizedTestsQtd: "3",
+    canceledTestsQtd: "1",
+    pendingTestQtd: "1",
+  },
+  {
+    profileImage: fotoLeandro,
+    name: "Leandro Motta Braga",
+    tests: "TDAH CAB ADHD, Autismo",
+    realizedTestsQtd: "6",
+    canceledTestsQtd: "0",
+    pendingTestQtd: "5",
+  },
+  {
+    profileImage: fotoKuromi,
+    name: "Kuromi Naori Kagasawa",
+    tests: "TDAH CAB ADHD, Autismo",
+    realizedTestsQtd: "22",
+    canceledTestsQtd: "0",
+    pendingTestQtd: "2",
   },
 ];
